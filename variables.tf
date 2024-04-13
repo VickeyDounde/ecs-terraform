@@ -6,12 +6,12 @@ variable "type" {
 
 variable "node_type" {
   description = "Instance type of node pools (EC2 cluster only)"
-  default     = "m5.large"
+  default     = "t2.micro"
 }
 
 variable "node_size" {
   description = "The cluster size of node pools (EC2 cluster only)"
-  default     = "3"
+  default     = "2"
 }
 
 variable "node_vol_size" {
